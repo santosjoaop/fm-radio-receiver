@@ -85,11 +85,9 @@ Relatórios completos do projeto (inicial, de progresso e final) e posters cient
 **Orientador:** Prof. Vítor Fialho, Ph.D.
 
 **Júri:**
-| Papel | Nome |
-|---|---|
-| Arguente | Prof. Luís Pires, Ph.D. |
-| Presidente | Prof. Fernando Fortes, Ph.D. |
-
+| Arguente | Prof. Mestre Especialista Luís Miguel Rego Pires|
+| Presidente | Prof. Doutor Fernando Manuel Ascenso Fortes |
+|Orientador|Prof. Doutor Vítor Manuel de Oliveira Fialho |
 ---
 
 ## Licença
