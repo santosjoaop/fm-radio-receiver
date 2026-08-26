@@ -89,6 +89,6 @@ Relatórios completos do projeto (inicial, de progresso e final) e posters cient
 | Role || Name |
 |---|---|---|
 | Advisor | _Orientador_ | _Professor Vitor Fialho, Ph.D._ |
-| Examination Committee | _Arguente_ | _Professor Luís Pires, Ph.D._ |
+| Examination Committee | _Arguente_ | _Professor Mestre Especialista Luís Pires_ |
 | ^ | _Presidente_ | _Professor Fernando Fortes, Ph.D._ |
 
