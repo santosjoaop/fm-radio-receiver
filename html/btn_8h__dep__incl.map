@@ -1,0 +1,5 @@
+<map id="firmware/btn.h" name="firmware/btn.h">
+<area shape="rect" id="Node000001" title="Joystick and button interface for the Digitally Controlled FM Radio Receiver." alt="" coords="13,5,130,31"/>
+<area shape="rect" id="Node000002" href="$btn_8cpp.html" title="Implementation of the joystick and button interface." alt="" coords="5,79,137,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,44,74,79,69,79,69,44"/>
+</map>

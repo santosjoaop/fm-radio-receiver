@@ -1,0 +1,11 @@
+<map id="firmware/display.h" name="firmware/display.h">
+<area shape="rect" id="Node000001" title="OLED display interface for the Digitally Controlled FM Radio Receiver." alt="" coords="133,5,274,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,89,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,33,86,75,84,70,177,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="114,79,178,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,33,166,70,162,66,192,29"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="202,79,322,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="215,29,246,67,242,70,211,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="347,79,497,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="239,28,374,72,373,77,238,33"/>
+</map>

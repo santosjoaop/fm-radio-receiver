@@ -1,0 +1,5 @@
+<map id="DisplayMenuFreq" name="DisplayMenuFreq">
+<area shape="rect" id="Node000001" title="Draw the centre&#45;frequency selection screen." alt="" coords="5,5,140,31"/>
+<area shape="rect" id="Node000002" href="$display_8cpp.html#a7aad53da39dce6c801e59677b6aa258c" title="Global Adafruit SSD1306 display object." alt="" coords="188,5,257,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,15,174,15,174,21,140,21"/>
+</map>

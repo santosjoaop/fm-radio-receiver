@@ -1,0 +1,5 @@
+<map id="DisplayWrite" name="DisplayWrite">
+<area shape="rect" id="Node000001" title="Refresh the main radio screen with current frequency and RSSI." alt="" coords="5,5,112,31"/>
+<area shape="rect" id="Node000002" href="$display_8cpp.html#a7aad53da39dce6c801e59677b6aa258c" title="Global Adafruit SSD1306 display object." alt="" coords="160,5,229,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,15,147,15,147,21,112,21"/>
+</map>
