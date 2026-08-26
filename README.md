@@ -86,12 +86,9 @@ Relatórios completos do projeto (inicial, de progresso e final) e posters cient
 
 **Júri:**  
 
-|---|---|
-| Arguente | Prof. Mestre Especialista Luís Miguel Rego Pires|
-| Presidente | Prof. Doutor Fernando Manuel Ascenso Fortes |
-|Orientador|Prof. Doutor Vítor Manuel de Oliveira Fialho |
----
+| Role || Name |
+|---|---|---|
+| Advisor | _Orientador_ | _Professor Vitor Fialho, Ph.D._ |
+| Examination Committee | _Arguente_ | _Professor Luís Pires, Ph.D._ |
+| ^ | _Presidente_ | _Professor Fernando Fortes, Ph.D._ |
 
-## Licença
-
-Projeto disponibilizado para fins académicos e de consulta. Para reutilização, contactar o autor.
