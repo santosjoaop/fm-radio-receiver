@@ -1,6 +1,6 @@
 # FM Radio Receiver
 
-![Circuit Photo](media/foto_projeto.png)
+![Circuit Photo](docs/images/foto_projeto.png)
 
 Recetor de rádio FM com controlo digital, desenvolvido como Projeto Final de Curso (PFC) em Engenharia Eletrónica e Telecomunicações e de Computadores no ISEL. O sistema é baseado num **Arduino Nano ESP32** e no módulo **RDA5807M**, e permite sintonia manual (joystick + display OLED) ou remota, através de um dashboard em **Python** com visualização em tempo real da intensidade de sinal (RSSI).
 
@@ -18,7 +18,7 @@ Recetor de rádio FM com controlo digital, desenvolvido como Projeto Final de Cu
 
 ## Diagrama de Blocos
 
-![Block Diagram](docs/diagrams/diagrama_blocos.png)
+![Block Diagram](docs/images/diagrama_blocos.png)
 
 ---
 
@@ -33,7 +33,7 @@ Recetor de rádio FM com controlo digital, desenvolvido como Projeto Final de Cu
 | Amplificador PAM8403 / TPA6111A2 | Amplificação de áudio |
 | DS3231 | Módulo de relógio em tempo real (RTC) |
 
-Datasheets completos disponíveis em [`docs/datasheets`](docs/datasheets).
+Datasheets completos disponíveis em [`docs/`](docs).
 
 ---
 
@@ -42,12 +42,12 @@ Datasheets completos disponíveis em [`docs/datasheets`](docs/datasheets).
 ```
 fm-radio-receiver/
 ├── README.md
+├── Doxyfile               # Configuração do Doxygen
 ├── firmware/              # Firmware C/C++ para o Arduino Nano ESP32
 ├── software/              # Dashboard Python (fm_scanner.py)
 ├── docs/
-│   ├── diagrams/          # Diagramas de blocos, FSM, UML e fluxogramas
-│   ├── datasheets/        # Datasheets dos componentes
-│   └── references/        # Bibliografia e normas técnicas de referência
+│   ├── mainpage.md        # Página principal da documentação Doxygen
+│   └── images/            # Foto do circuito e diagrama de blocos
 ├── reports/               # Relatórios (inicial, progresso, final) e posters
 └── media/                 # Fotos dos componentes e testes realizados
 ```
@@ -68,7 +68,8 @@ fm-radio-receiver/
 
 ## Documentação Técnica
 
-A documentação técnica completa do código (gerada com Doxygen, incluindo diagramas UML de classes e de sequência) está disponível em [`docs/`](docs).
+A documentação técnica completa do código (gerada com Doxygen, incluindo diagramas UML de classes e de sequência) está publicada em:
+**[santosjoaop.github.io/fm-radio-receiver](https://santosjoaop.github.io/fm-radio-receiver/)**
 
 Relatórios completos do projeto (inicial, de progresso e final) e posters científicos estão disponíveis em [`reports/`](reports).
 
