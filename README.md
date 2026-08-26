@@ -84,7 +84,7 @@ Relatórios completos do projeto (inicial, de progresso e final) e posters cient
 
 **Orientador:** Prof. Vítor Fialho, Ph.D.
 
-**Júri:**
+**Júri:**  
 
 |---|---|
 | Arguente | Prof. Mestre Especialista Luís Miguel Rego Pires|
