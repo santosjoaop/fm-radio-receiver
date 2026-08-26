@@ -25,13 +25,8 @@
 var NAVTREE =
 [
   [ "Digitally Controlled FM Radio Receiver - Project P08", "index.html", [
+    [ "Project Overview", "index.html", "index" ],
     [ "Files", "files.html", [
-      [ "It features an OLED display, joystick control, and a Python dashboard for remote control via UART, real-time signal strength (RSSI) visualization, and frequency scans (full scan and center scan).", "index.html#autotoc_md0", null ],
-      [ "Year: 2025/2026", "index.html#autotoc_md1", null ],
-      [ "^   Presidente  Professor Fernando Fortes, Ph.D.", "index.html#autotoc_md2", null ],
-      [ "@image{inline} html images/diagrama_blocos.png \"Project Block Diagram\"", "index.html#autotoc_md3", null ],
-      [ "@ref fm_scanner.py  Python dashboard and graphic visualizer", "index.html#autotoc_md4", null ],
-      [ "or the physical joystick.", "index.html#autotoc_md5", null ],
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],

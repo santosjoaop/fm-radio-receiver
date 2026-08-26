@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Digitally Controlled FM Radio Receiver - Project P08: Digitally Controlled FM Radio Receiver - Project P08</title>
+<title>Digitally Controlled FM Radio Receiver - Project P08: Project Overview</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -90,35 +90,80 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Digitally Controlled FM Radio Receiver - Project P08 </div></div>
+  <div class="headertitle"><div class="title">Project Overview </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_docs_2mainpage"></a> Project Overview <img src="foto_projeto.png" alt="" class="inline" title="Circuit Photo"/>     Summary This project implements a Digitally Controlled FM Radio Receiver based on the Arduino Nano ESP32 and the RDA5807M module. <br  />
- </p>
-<h2><a class="anchor" id="autotoc_md0"></a>
-It features an OLED display, joystick control, and a Python dashboard for remote control via UART, real-time signal strength (RSSI) visualization, and frequency scans (full scan and center scan).</h2>
-<p>Authorship Name: João Pedro Santos <br  />
- Institution: ISEL (Instituto Superior de Engenharia de Lisboa) <br  />
- Course: Electronics, Telecommunications and Computer Engineering <br  />
- </p>
-<h2><a class="anchor" id="autotoc_md1"></a>
-Year: 2025/2026</h2>
-<p>Project Jury Role Name Advisor Orientador Professor Vitor Fialho, Ph.D. Examination Committee Arguente Professor Luís Pires, Ph.D. </p>
-<h2><a class="anchor" id="autotoc_md2"></a>
-^   Presidente  Professor Fernando Fortes, Ph.D.</h2>
-<p>Block Diagram </p>
-<h2><a class="anchor" id="autotoc_md3"></a>
-@image{inline} html images/diagrama_blocos.png "Project Block Diagram"</h2>
-<p>   </p>
-<p>Code Structure Module Description <a class="el" href="pfc__main_8ino_source.html">pfc_main.ino</a> Main file - state machine and main loop <a class="el" href="btn_8h.html">btn.h / btn.cpp</a> Joystick/buttons interface <a class="el" href="display_8h.html">display.h / display.cpp</a> OLED display interface <a class="el" href="rda_8h.html">rda.h / rda.cpp</a> RDA5807M radio module interface </p>
-<h2><a class="anchor" id="autotoc_md4"></a>
-@ref fm_scanner.py  Python dashboard and graphic visualizer</h2>
-<p>How to use Upload the firmware <code>pfc.ino</code> to the Arduino Nano ESP32. Connect the Arduino to the PC via USB. Run the Python script: </p><div class="fragment"><div class="line">python fm_scanner.py</div>
-</div><!-- fragment --><p> Use the dashboard to control the radio (volume, frequency, scans) <br  />
- </p>
-<h2><a class="anchor" id="autotoc_md5"></a>
-or the physical joystick.</h2>
-<p>Features Manual and dashboard tuning. Volume and mute control. Full scan (80-108 MHz) and center scan (± 10 steps). Real-time RSSI visualization per frequency. Save charts (PNG) and data (TXT) of the scans. </p>
+<div class="textblock"><p><a class="anchor" id="md_docs_2mainpage"></a> </p><div class="image">
+<img src="foto_projeto.png" alt=""/>
+<div class="caption">
+Circuit Photo</div></div>
+    <h1><a class="anchor" id="autotoc_md1"></a>
+Summary</h1>
+<p>This project implements a <b>Digitally Controlled FM Radio Receiver</b> based on the <b>Arduino Nano ESP32</b> and the <b>RDA5807M</b> module. It features an OLED display, joystick control, and a <b>Python</b> dashboard for remote control via UART, real-time signal strength (RSSI) visualization, and frequency scans (full scan and center scan).</p>
+<hr  />
+<h1><a class="anchor" id="autotoc_md3"></a>
+Authorship</h1>
+<p><b>Name:</b> João Pedro Santos <br  />
+ <b>Institution:</b> ISEL (<em>Instituto Superior de Engenharia de Lisboa</em>) <br  />
+ <b>Course:</b> Electronics, Telecommunications and Computer Engineering <br  />
+ <b>Year:</b> 2025/2026</p>
+<hr  />
+<h1><a class="anchor" id="autotoc_md5"></a>
+Project Jury</h1>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Role   </th><th class="markdownTableHeadNone">Name    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Advisor (<em>Orientador</em>)   </td><td class="markdownTableBodyNone">Professor Vítor Fialho, Ph.D.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Examination Committee — Arguente   </td><td class="markdownTableBodyNone">Professor Luís Pires    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Examination Committee — Presidente   </td><td class="markdownTableBodyNone">Professor Fernando Fortes, Ph.D.   </td></tr>
+</table>
+<hr  />
+<h1><a class="anchor" id="autotoc_md7"></a>
+Block Diagram</h1>
+<div class="image">
+<img src="diagrama_blocos.png" alt=""/>
+<div class="caption">
+Project Block Diagram</div></div>
+    <hr  />
+<h1><a class="anchor" id="autotoc_md9"></a>
+Code Structure</h1>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Module   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="pfc__main_8ino_source.html">pfc_main.ino</a>   </td><td class="markdownTableBodyNone">Main file - state machine and main loop    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="btn_8h.html">btn.h / btn.cpp</a>   </td><td class="markdownTableBodyNone">Joystick/buttons interface    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="display_8h.html">display.h / display.cpp</a>   </td><td class="markdownTableBodyNone">OLED display interface    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a class="el" href="rda_8h.html">rda.h / rda.cpp</a>   </td><td class="markdownTableBodyNone">RDA5807M radio module interface    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a class="el" href="fm__scanner_8py.html">fm_scanner.py</a>   </td><td class="markdownTableBodyNone">Python dashboard and graphic visualizer   </td></tr>
+</table>
+<hr  />
+<h1><a class="anchor" id="autotoc_md11"></a>
+How to use</h1>
+<ol type="1">
+<li>Upload the firmware <code>pfc.ino</code> to the Arduino Nano ESP32.</li>
+<li>Connect the Arduino to the PC via USB.</li>
+<li>Run the Python script: <div class="fragment"><div class="line">python fm_scanner.py</div>
+</div><!-- fragment --></li>
+<li>Use the dashboard to control the radio (volume, frequency, scans) or the physical joystick.</li>
+</ol>
+<hr  />
+<h1><a class="anchor" id="autotoc_md13"></a>
+Features</h1>
+<ul>
+<li>Manual and dashboard tuning.</li>
+<li>Volume and mute control.</li>
+<li>Full scan (80-108 MHz) and center scan (± 10 steps).</li>
+<li>Real-time RSSI visualization per frequency.</li>
+<li>Save charts (PNG) and data (TXT) of the scans. </li>
+</ul>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
