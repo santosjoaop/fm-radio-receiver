@@ -1,0 +1,86 @@
+# Doxyfile for Digitally Controlled FM Radio Receiver - Project P08
+
+#---------------------------------------------------------------------------
+# Project info
+#---------------------------------------------------------------------------
+PROJECT_NAME           = "Digitally Controlled FM Radio Receiver - Project P08"
+PROJECT_NUMBER         = "Final Version"
+PROJECT_BRIEF          = "Arduino NanoESP32 + RDA5807M FM Radio with Python Dashboard"
+OUTPUT_DIRECTORY       = docs/html_output
+
+#---------------------------------------------------------------------------
+# Input files
+#---------------------------------------------------------------------------
+INPUT                  = firmware software docs/mainpage.md
+FILE_PATTERNS          = *.ino *.cpp *.h *.py
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = docs/mainpage.md
+
+#---------------------------------------------------------------------------
+# Images
+#---------------------------------------------------------------------------
+IMAGE_PATH             = docs/images
+
+#---------------------------------------------------------------------------
+# Output formats
+#---------------------------------------------------------------------------
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+#---------------------------------------------------------------------------
+# Extraction settings
+#---------------------------------------------------------------------------
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+#---------------------------------------------------------------------------
+# Python support
+#---------------------------------------------------------------------------
+OPTIMIZE_OUTPUT_JAVA   = NO
+
+#---------------------------------------------------------------------------
+# Diagrams
+#---------------------------------------------------------------------------
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+CLASS_DIAGRAMS         = NO
+
+#---------------------------------------------------------------------------
+# Source code in output
+#---------------------------------------------------------------------------
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+
+#---------------------------------------------------------------------------
+# Warnings
+#---------------------------------------------------------------------------
+WARN_IF_UNDOCUMENTED   = NO
+WARN_NO_PARAMDOC       = NO
+
+#---------------------------------------------------------------------------
+# Visual appearance
+#---------------------------------------------------------------------------
+DISABLE_INDEX          = NO
+GENERATE_TREEVIEW      = YES
+FULL_SIDEBAR           = NO
+HTML_DYNAMIC_SECTIONS  = YES
+HTML_COLORSTYLE        = LIGHT
+
+#---------------------------------------------------------------------------
+# Simplify sidebar — show only Main Page + Files
+#---------------------------------------------------------------------------
+SHOW_NAMESPACES        = NO
+GENERATE_TODOLIST      = NO
+GENERATE_TESTLIST      = NO
+GENERATE_BUGLIST       = NO
+GENERATE_DEPRECATEDLIST = NO
+
+# Removes the "Classes" sidebar entry entirely
+HIDE_UNDOC_CLASSES     = YES
+HIDE_UNDOC_MEMBERS     = YES
+
+# Excludes the Dashboard Python class from the class index
+# (its methods are still documented inside the fm_scanner.py file page)
+EXCLUDE_SYMBOLS        = Dashboard
