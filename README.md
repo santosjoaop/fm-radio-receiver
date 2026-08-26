@@ -84,11 +84,11 @@ Relatórios completos do projeto (inicial, de progresso e final) e posters cient
 
 **Orientador:** Prof. Vítor Fialho, Ph.D.
 
-**Júri:**  
+## Project Jury
 
-| Role || Name |
-|---|---|---|
-| Advisor | _Orientador_ | _Professor Vitor Fialho, Ph.D._ |
-| Examination Committee | _Arguente_ | _Professor Mestre Especialista Luís Pires_ |
-| ^ | _Presidente_ | _Professor Fernando Fortes, Ph.D._ |
+| Role | Name |
+|---|---|
+| Advisor (_Orientador_) | Professor Vítor Manuel de Oliveira Fialho, Ph.D. |
+| Examination Committee — Arguente | Professor Mestre Especialista Luís Miguel Rego Pires |
+| Examination Committee — Presidente | Professor Doutor Fernando Manuel Ascenso Fortes |
 
